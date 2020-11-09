@@ -21,11 +21,10 @@ def baner():
                                                             
                                                             
 \t------------
-\n
-[97;1mCreator[97;1m:[97;1mSurya Gumawang
-[97;1mTools[97;1m:[97;1mSFGamink
-[97;1mGithub[97;1m:[97;1mgithub.com/SFGamink
-[97;1m==========================================''')
+\nCreator : Surya Gumawang
+Tools : SFGamink
+Github : https://github.com/SFGamink
+==========================================''')
 def kata(s):
     for c in s + "\n":
         sys.stdout.write(c)
@@ -254,7 +253,7 @@ if __name__=="__main__":
           clear()
           baner()
           hh="+62"
-          no=input("[+]Phone Number: ")
+          no=input("[+]Nomor Hape: ")
           c=no[1:12]
           w=hh+c 
           kata("Tungguan Sakedeng....!!")
