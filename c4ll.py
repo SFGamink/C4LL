@@ -1,4 +1,40 @@
-import os,sys,time,requests,re,json,random
+import os
+try:
+	import python
+except ImportError:
+	print " \033[93;1m\n     Didinya Acan Install modul python,\n   Teken Enter Arek Install Modul python... "
+	raw_input(" ====>")
+	os.system("pkg install python" if os.name == 'nt' else 'pkg install pyhton')
+
+try:
+	import requests
+except ImportError:
+	print " \033[93;1m\n     Didinya Acan Install modul Requests,\n   Teken Enter Arek Install Modul Requests... "
+	raw_input(" ====>")
+	os.system("pip install requests" if os.name == 'nt' else 'pip2 install requests')
+
+try:
+	import bash
+except ImportError:
+	print " \033[93;1m\n     Didinya Acan Install modul bash,\n   Teken Enter Arek Install Modul bash... "
+	raw_input(" ====>")
+	os.system("pip install bash" if os.name == 'nt' else 'pip2 install bash')    
+
+try:
+	import php
+except ImportError:
+	print " \033[93;1m\n     Didinya Acan Install modul php,\n   Teken Enter Arek Install Modul php... "
+	raw_input(" ====>")
+	os.system("pkg install php" if os.name == 'nt' else 'pkg install php')
+
+try:
+	import ruby
+except ImportError:
+	print " \033[93;1m\n     Didinya Acan Install modul ruby,\n   Teken Enter Arek Install Modul ruby... "
+	raw_input(" ====>")
+	os.system("gem install ruby" if os.name == 'nt' else 'gem install ruby')
+    
+import sys,time,requests,re,json,random
 from random import randrange as rg
 print ("\033[00m")
 def clear():
